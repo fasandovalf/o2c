@@ -1,0 +1,48 @@
+<blockquote *ngIf="errorLogin">
+  Usuario no encontrado
+</blockquote>
+ 
+<form
+  autocomplete="off"
+  [hidden]="fs.isLoggedIn"
+  novalidate
+  (ngSubmit)="login()"
+  #loginForm="ngForm"
+>
+ 
+  <div class="input-field col s6 offset-s3">
+    <label for="email">Email</label>
+    <input
+      type="text"
+      class="form-control"
+      id="email"
+      required
+      name="email"
+      [(ngModel)]="user.email"
+      #email="ngModel"
+    >
+  </div>
+ 
+  <div class="input-field col s6 offset-s3">
+    <label for="password">Password</label>
+    <input
+      type="password"
+      class="form-control"
+      id="password"
+      required
+      name="password"
+      [(ngModel)]="user.password"
+      #password="ngModel"
+    >
+  </div>
+ 
+  <div class="col s6 offset-s3">
+    <button
+      [disabled]="!loginForm.form.valid"
+      class="btn waves-effect waves-light input-block-level"
+      type="submit"
+    >
+      Iniciar sesión con Firebase
+    </button>
+  </div>
+</form>

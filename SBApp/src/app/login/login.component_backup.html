@@ -1,0 +1,24 @@
+<div class="login-page">
+	<div class="row">
+		<div class="col-lg-4 col-lg-offset-4">
+			<img src="assets/img/SB-admin.png" width="150px" class="user-avatar" />
+			<h1>Order to Cash</h1>
+			<form role="form" [hidden]="fs.isLoggedIn">
+				<div class="form-content">
+					<div class="form-group">
+						<input type="text" ng-model="email" class="form-control input-underline input-lg" id="email" placeholder="Email">
+					</div>
+
+					<div class="form-group">
+						<input type="password" class="form-control input-underline input-lg" id="password" placeholder="Password">
+					</div>
+				</div>
+				<!-- <a class="btn rounded-btn" (ngEvent)="loginUser()" routerLink="/dashboard/home"> Log in </a> -->
+				<button  class="btn rounded-btn" (click)="login()" > Log in	</button> 
+				
+				&nbsp;<a type="submit" class="btn rounded-btn" routerLink="/signup">Register</a>
+			</form>
+			<blockquote *ngIf="errorLogin">Usuario no encontrado</blockquote>
+		</div>
+	</div>
+</div>
