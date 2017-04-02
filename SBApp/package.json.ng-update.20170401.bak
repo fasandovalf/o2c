@@ -9,24 +9,23 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "pree2e": "webdriver-manager update",
-    "build": "ng build"
+    "pree2e": "webdriver-manager update"
   },
   "private": true,
   "dependencies": {
-    "@angular/common": "^4.0.0",
-    "@angular/compiler": "^4.0.0",
-    "@angular/core": "^4.0.0",
-    "@angular/forms": "^4.0.0",
-    "@angular/http": "^4.0.0",
-    "@angular/platform-browser": "^4.0.0",
-    "@angular/platform-browser-dynamic": "^4.0.0",
-    "@angular/router": "^4.0.0",
+    "@angular/common": "^2.4.0",
+    "@angular/compiler": "^2.4.0",
+    "@angular/core": "^2.4.0",
+    "@angular/forms": "^2.4.0",
+    "@angular/http": "^2.4.0",
+    "@angular/platform-browser": "^2.4.0",
+    "@angular/platform-browser-dynamic": "^2.4.0",
+    "@angular/router": "^3.4.0",
     "angularfire2": "^2.0.0-beta.8",
     "core-js": "^2.4.1",
     "firebase": "^3.6.9",
     "rxjs": "^5.1.0",
-    "zone.js": "^0.8.4",
+    "zone.js": "^0.7.6",
     "bootstrap": "4.0.0-alpha.4",
     "es6-module-loader": "0.17.11",
     "font-awesome": "4.6.3",
@@ -34,15 +33,16 @@
     "jquery": "3.1.0",
     "moment": "2.15.1",
     "ng2-bootstrap": "1.1.16",
-    "reflect-metadata": "0.1.8"
+    "reflect-metadata": "0.1.8",
+    "ts-helpers": "1.1.1"
   },
   "devDependencies": {
-    "@angular/cli": "1.0.0",
-    "@angular/compiler-cli": "^4.0.0",
+    "@angular/cli": "^1.0.0-rc.1",
+    "@angular/compiler-cli": "^2.4.0",
     "@types/jasmine": "2.5.38",
     "@types/node": "~6.0.60",
     "angular-ide": "^0.9.19",
-    "codelyzer": "~2.0.0",
+    "codelyzer": "~2.0.0-beta.4",
     "jasmine-core": "~2.5.2",
     "jasmine-spec-reporter": "~3.2.0",
     "karma": "~1.4.1",
@@ -53,7 +53,7 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.0",
     "ts-node": "~2.0.0",
-    "tslint": "~4.5.0",
-    "typescript": "~2.2.0"
+    "tslint": "~4.4.2",
+    "typescript": "~2.0.0"
   }
 }

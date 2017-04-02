@@ -12,6 +12,16 @@ import { DashboardModule } from './dashboard/dashboard.module';
 import {AngularFireModule, AuthProviders, AuthMethods} from 'angularfire2';
 
 
+export const firebaseConfig = {
+
+    apiKey: "AIzaSyARYTSD0712pQT2cNnn0iN4uoSEfNYgwbg",
+    authDomain: "o2c01-6540e.firebaseapp.com",
+    databaseURL: "https://o2c01-6540e.firebaseio.com",
+    storageBucket: "o2c01-6540e.appspot.com",
+    messagingSenderId: "790169156079"
+
+};
+
 const firebaseAuthConfig = {
   provider: AuthProviders.Password,
   method: AuthMethods.Password,
@@ -22,7 +32,7 @@ const firebaseAuthConfig = {
     AppComponent
   ],
   imports: [
-    AngularFireModule.initializeApp(firebaseAuthConfig),
+    AngularFireModule.initializeApp(firebaseConfig, firebaseAuthConfig),
     BrowserModule,
     FormsModule,
     HttpModule,

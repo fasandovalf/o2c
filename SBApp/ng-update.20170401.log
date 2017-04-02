@@ -1,0 +1,41 @@
+2017-04-01T23:59:00.128Z - info: [.angular-cli.json] Renaming angular-cli.json to .angular-cli.json
+2017-04-01T23:59:00.239Z - info: [package.json] [peerDependencies] Doesn't exists, doing nothing
+2017-04-01T23:59:00.239Z - info: [package.json] [peerDependencies] Doesn't exists, doing nothing
+2017-04-01T23:59:00.239Z - info: [package.json] [dependencies] Updating @angular/common@^2.4.0 => ^4.0.0
+2017-04-01T23:59:00.239Z - info: [package.json] [dependencies] Updating @angular/compiler@^2.4.0 => ^4.0.0
+2017-04-01T23:59:00.239Z - info: [package.json] [dependencies] Updating @angular/core@^2.4.0 => ^4.0.0
+2017-04-01T23:59:00.239Z - info: [package.json] [dependencies] Updating @angular/forms@^2.4.0 => ^4.0.0
+2017-04-01T23:59:00.239Z - info: [package.json] [dependencies] Updating @angular/http@^2.4.0 => ^4.0.0
+2017-04-01T23:59:00.239Z - info: [package.json] [dependencies] Updating @angular/platform-browser@^2.4.0 => ^4.0.0
+2017-04-01T23:59:00.239Z - info: [package.json] [dependencies] Updating @angular/platform-browser-dynamic@^2.4.0 => ^4.0.0
+2017-04-01T23:59:00.239Z - info: [package.json] [dependencies] Updating @angular/router@^3.4.0 => ^4.0.0
+2017-04-01T23:59:00.239Z - info: [package.json] [dependencies] Updating zone.js@^0.7.6 => ^0.8.4
+2017-04-01T23:59:00.239Z - info: [package.json] [dependencies] Removing ts-helpers@undefined
+2017-04-01T23:59:00.239Z - info: [package.json] [devDependencies] Updating @angular/compiler-cli@^2.4.0 => ^4.0.0
+2017-04-01T23:59:00.239Z - info: [package.json] [devDependencies] Updating @angular/cli@^1.0.0-rc.1 => 1.0.0
+2017-04-01T23:59:00.239Z - info: [package.json] [devDependencies] Updating codelyzer@~2.0.0-beta.4 => ~2.0.0
+2017-04-01T23:59:00.239Z - info: [package.json] [devDependencies] Updating tslint@~4.4.2 => ~4.5.0
+2017-04-01T23:59:00.239Z - info: [package.json] [devDependencies] Updating typescript@~2.0.0 => ~2.2.0
+2017-04-01T23:59:00.239Z - info: [package.json] [scripts] Adding build with "ng build"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Removing "no-duplicate-key"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Removing "no-unreachable"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Removing "directive-selector-prefix"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Removing "directive-selector-name"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Removing "directive-selector-type"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Removing "component-selector-type"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Removing "component-selector-name"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Adding "callable-types"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Adding "import-blacklist"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Adding "import-spacing"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Adding "interface-over-type-literal"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Adding "no-empty-interface"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Adding "no-string-throw"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Adding "prefer-const"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Adding "typeof-compare"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Adding "unified-signatures"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Adding "directive-selector"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Adding "component-selector"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Adding "no-access-missing-member"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Adding "templates-use-public"
+2017-04-01T23:59:00.390Z - info: [TSLint] [rules] Adding "invoke-injectable"
+2017-04-01T23:59:00.405Z - info: [update-reference] Writing update reference file
