@@ -5,11 +5,15 @@ import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { routes } from './app.routes';
+import {LoginComponent } from './login/login.component';
+
+import { appRoutes } from './app.routes';
 import { LoginModule } from './login/login.module';
 import { SignupModule } from './signup/signup.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 import {AngularFireModule, AuthProviders, AuthMethods} from 'angularfire2';
+import {FirebaseappService} from './services/firebaseapp.service';
+import {AuthService} from './services/auth.service';
 
 
 export const firebaseConfig = {
@@ -28,20 +32,21 @@ const firebaseAuthConfig = {
 };
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+
   imports: [
     AngularFireModule.initializeApp(firebaseConfig, firebaseAuthConfig),
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(appRoutes),
     LoginModule,
     SignupModule,
     DashboardModule
   ],
-  providers: [],
+  declarations: [
+    AppComponent
+  ],
+  providers: [FirebaseappService, AuthService],
   bootstrap: [AppComponent]
 })
 

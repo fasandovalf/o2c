@@ -17,7 +17,7 @@ export class FirebaseappService {
       } else {
         // user not logged in
         this.user = {};
-                this.isLoggedIn = false;
+        this.isLoggedIn = false;
             }
         });
     }

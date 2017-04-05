@@ -7,20 +7,20 @@ import { FirebaseappService } from '../services/firebaseapp.service';
 
 @Component({
   selector: 'login-cmp',
-  templateUrl: 'login.component.html'
+  templateUrl: './login.component.html'
 })
 
 export class LoginComponent {
 
- user: Object = {
-        username: '',
-        password: ''
-    };
-
+    
     errorLogin: boolean = false;
+  user: {email:'', password:''};
 
-    constructor(private fs: FirebaseappService) { }
-
+    constructor(public fs: FirebaseappService) {  
+    }
+  
+    
+  
     login() {
         this.fs.login(this.user).then((res) => {
             console.log(res);
@@ -30,4 +30,5 @@ export class LoginComponent {
             this.errorLogin = true;
         });
     }
+  
  }

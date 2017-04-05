@@ -6,7 +6,7 @@ import { DashboardRoutes } from './dashboard/dashboard.routes';
 
 import { LoginComponent } from './login/index';
 
-export const routes: Routes = [
+export const appRoutes: Routes = [
   ...LoginRoutes,
   ...SignupRoutes,
   ...DashboardRoutes,
