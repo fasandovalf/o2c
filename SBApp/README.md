@@ -1,31 +1,57 @@
-# SbadminNg2
+[![Build Status](https://travis-ci.org/akveo/ng2-admin.svg?branch=master)](https://travis-ci.org/akveo/ng2-admin)
+[![Join the chat at https://gitter.im/ng2-admin/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ng2-admin/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Dependency Status](https://david-dm.org/akveo/ng2-admin/status.svg)](https://david-dm.org/akveo/ng2-admin)
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.15.
+# Admin panel framework based on Angular 2, Bootstrap 4 and Webpack
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Admin template made with :heart:  by [Akveo team](http://akveo.com/). Follow us on [Twitter](https://twitter.com/akveo_inc) to get latest news about this template first!
 
-## Code scaffolding
+### Demo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
+<a target="_blank" href="http://akveo.com/ng2-admin/"><img src="http://i.imgur.com/QK9AzHj.jpg" width="600" alt="Sky Blue"/></a>
 
-## Build
+<a target="_blank" href="http://akveo.com/ng2-admin/">Live Demo</a>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Angular 1.x version
+Here you can find Angular 1.x based version: [Blur Admin](http://akveo.github.io/blur-admin/)
+ 
+## Documentation
+Installation, customization and other useful articles: https://akveo.github.io/ng2-admin/
 
-## Running unit tests
+## Based on
+Angular 2, Bootstrap 4, Webpack and lots of awesome modules and plugins
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## BrowserStack
+This project runs its tests on multiple desktop and mobile browsers using [BrowserStack](http://www.browserstack.com).
 
-## Running end-to-end tests
+<img src="https://cloud.githubusercontent.com/assets/131406/22254249/534d889e-e254-11e6-8427-a759fb23b7bd.png" height="40" />
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/). 
-Before running the tests make sure you are serving the app via `ng serve`.
+## How can I support developers?
+- Star our GitHub repo :star:
+- Create pull requests, submit bugs, suggest new features or documentation updates :wrench:
+- Follow us on [Twitter](https://twitter.com/akveo_inc) :feet:
+- Like our page on [Facebook](https://www.facebook.com/akveo/) :thumbsup:
 
-## Deploying to Github Pages
+## Can I hire you guys?
+Yes!  Visit [our homepage](http://akveo.com/) or simply leave us a note to [contact@akveo.com](mailto:contact@akveo.com). We will be happy to work with you!
 
-Run `ng github-pages:deploy` to deploy to Github Pages.
+## Features
+* TypeScript
+* Webpack
+* Responsive layout
+* High resolution
+* Bootstrap 4 CSS Framework
+* Sass
+* Angular 2
+* jQuery
+* Charts (Chartist, Chart.js)
+* Maps (Google, Leaflet, amMap)
+* and many more!
 
-## Further help
+## License
+[MIT](LICENSE.txt) license.
 
-To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### From akveo
+
+Enjoy :metal:
+We're always happy to hear your feedback!
